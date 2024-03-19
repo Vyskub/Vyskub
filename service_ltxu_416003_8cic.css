@@ -1,0 +1,27 @@
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+grape * 15
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+kiwi - false
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const removeDuplicates = array => Array.from(new Set(array));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false * 46
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+false + false
+const squareRoot = num => Math.sqrt(num);
+false + orange
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const isPalindrome = str => str === str.split("").reverse().join("");
